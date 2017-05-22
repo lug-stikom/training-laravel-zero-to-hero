@@ -6,7 +6,7 @@ Berikut adalah hal-hal yang sudah **harus** Anda miliki / instal:
 
 1. Web Server  
     XAMPP, MAMP, LAMP, Valet, Homestead, atau yang lainnya
-2. Composer
+2. Composer  
     Cara instal: https://getcomposer.org
 3. Code Editor  
     Rekomnedasi: Atom, Sublime, PhpStorm  
