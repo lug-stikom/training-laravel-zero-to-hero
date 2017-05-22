@@ -54,7 +54,7 @@ DB_PASSWORD=isi dengan password mysql Anda
 6. Create database baru dengan nama: `onlinestoredb`
 7. Kembali ke `terminal` / `cmd`
 8. Jalankan perintah `php artisan migrate` <kbd>enter</kbd>
-9. Jika sukses (tidak ada), akan muncul 3 tabel dalam database onlinestoredb
+9. Jika sukses (tidak ada), akan muncul 3 tabel dalam database onlinestoredb  
     Tabel: `users`, `password_reset`, dan `migrations`
 
 ### C.2 Muncul Error, atau Hanya Muncul 2 Tabel ?
