@@ -25,9 +25,9 @@ Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) j
 
 ## C. Memindahkan AdminLTE ke Laravel
 
-1. Copy folder `css`, `img`, dan `js` dari dalam folder `adminlte/dist`
-2. Paste ke dalam folder `online-store/public`  
-    Akan ada folder `/public/css`, `/public/img`, dan `/public/js`
+1. Copy folder `dist` dari dalam folder `adminlte/`
+2. Paste ke dalam folder `online-store/public/`
+    Akan ada folder `/public/dist/*`
 3. Copy folder `bootstrap` dari dalam folder `adminlte`
 4. Paste ke dalam folder `online-store/public`  
     Akan ada folder `/public/bootstrap`
