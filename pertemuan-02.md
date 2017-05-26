@@ -28,8 +28,9 @@ Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) j
 1. Copy folder `css`, `img`, dan `js` dari dalam folder `adminlte/dist`
 2. Paste ke dalam folder `online-store/public`  
     Akan ada folder `/public/css`, `/public/img`, dan `/public/js`
-3. Copy folder bootstrap dari dalam folder adminlte
-4. Paste ke dalam folder online-store/public
+3. Copy folder `bootstrap` dari dalam folder `adminlte`
+4. Paste ke dalam folder `online-store/public`  
+    Akan ada folder `/public/bootstrap`
 5. Buat file `master.blade.php` di dalam folder `/resources/views/layouts`
 6. Buka `https://pastebin.com/kuiPYUgZ`
 7. Copas ke dalam file `master.blade.php` tadi
