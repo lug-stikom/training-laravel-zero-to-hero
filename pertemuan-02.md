@@ -41,7 +41,7 @@ Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) j
 2. Isi dengan kode
 ```
 Route::get('/admin', function() {
-		return view('layouts.master');
+    return view('layouts.master');
 });
 ```
 3. Buka `terminal` / `cmd`
