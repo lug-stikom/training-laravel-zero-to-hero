@@ -64,3 +64,17 @@ Route::get('/admin', function() {
     Ini konten dari view dashboard.blade.php
 @endsection
 ```
+7. Buka `routes/web.php`
+8. Cari kode
+```
+Route::get('/admin', function() {
+    return view('layouts.master');
+});
+```
+ganti menjadi:
+```
+Route::get('/admin', function() {
+    return view('admin.dashboard');
+});
+```
+9. Kembali ke browser, refresh.
