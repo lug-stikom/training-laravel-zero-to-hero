@@ -98,4 +98,4 @@ Route::get('/admin/product', function() {
     return view('product.index');
 });
 ```
-6. Kembali ke browser, refresh.
+6. Kembali ke browser, arahkan ke route '/admin/product'.
