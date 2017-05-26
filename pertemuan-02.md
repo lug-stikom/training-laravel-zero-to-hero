@@ -94,8 +94,8 @@ Route::get('/admin', function() {
 4. Buka file `/routes/web.php`
 5. Isi kode baru berikut:
 ```
-Route::get('/admin/product', function() {
+Route::get('/product', function() {
     return view('product.index');
 });
 ```
-6. Kembali ke browser, arahkan ke route '/admin/product'.
+6. Kembali ke browser, arahkan ke route `http://localhost:8000/product`.
