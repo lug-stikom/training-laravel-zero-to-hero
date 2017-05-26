@@ -47,5 +47,3 @@ Route::get('/admin', function() {
 3. Buka `terminal` / `cmd`
 4. Masuk ke dalam aplikasi `online-store`, jalankan `php artisan serve`
 5. Buka browser, arahkan ke `localhost:8000/admin`  
-6. Akan muncul tampilan HTML dengan tampilan yang kacau  
-    Hal ini terjadi karena kita belum mengaitkan template AdminLTE dengan asetnya dengan benar
