@@ -5,3 +5,18 @@
 2. Unzip di web root
 3. Rename menjadi `adminlte`
 4. Panggil lewat browser, contoh: `http://localhost/adminlte`
+
+## B. Laravel View
+
+View adalah salah satu dari 3 bagian metode MVC (Model-View-Controller).
+Seperti namanya, View bertanggungjawab pada urusan tampilan di browser.
+
+View sebenarnya hanyalah tampilan web biasa, yang dibentuk dengan HTML, CSS, dan JS.
+Laravel membagi peletakan file-file view berdasarkan jenisnya dalam folder:
+
+1. CSS: `/public/css/*`
+2. Javascript: `/public/js/*`
+3. HTML: `/resources/views/*`
+
+Laravel juga mendukung pre-processor CSS dengan SASS dan Mix.
+Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) juga disimpan dalam `/resources/assets/*`
