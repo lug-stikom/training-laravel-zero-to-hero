@@ -47,3 +47,12 @@ Route::get('/admin', function() {
 3. Buka `terminal` / `cmd`
 4. Masuk ke dalam aplikasi `online-store`, jalankan `php artisan serve`
 5. Buka browser, arahkan ke `localhost:8000/admin`  
+
+
+## E. Membuat @section Dalam Master Layout
+
+1. Buat folder `admin` dalam `/resources/views/`
+2. Didalamnya buat file `dashboard.blade.php`
+3. Buka file `resources/views/layouts/master.blade.php`
+4. Cari kode `<!-- Your Page Content Here -->`
+5. Ganti menjadi `@yield('content')`
