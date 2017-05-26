@@ -77,4 +77,25 @@ Route::get('/admin', function() {
     return view('admin.dashboard');
 });
 ```
-9. Kembali ke browser, refresh.
+9. Kembali ke browser, refresh
+
+
+### E.1 Contoh penggunaan @section('content') yang lain
+1. Buat folder `product` di dalam `/resources/views/`
+2. Buat file `index.blade.php` di dalam folder `product` tadi
+3. Buka file view `/product/index.blade.php` tadi, isi dengan kode:
+```
+@extends('layouts.master')
+
+@section('content')
+    Ini konten dari view product/index.blade.php
+@endsection
+```
+4. Buka file `/routes/web.php`
+5. Isi kode baru berikut:
+```
+Route::get('/admin/product', function() {
+    return view('product.index');
+});
+```
+6. Kembali ke browser, refresh.
