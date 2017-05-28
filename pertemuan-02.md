@@ -39,7 +39,7 @@ Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) j
 
 1. Buka `file /routes/web.php`
 2. Isi dengan kode
-```
+```php
 Route::get('/admin', function() {
     return view('layouts.master');
 });
@@ -57,7 +57,7 @@ Route::get('/admin', function() {
 4. Buat folder `admin` dalam `/resources/views/`
 5. Didalamnya buat file `dashboard.blade.php`
 6. Didalam file `dashboard.blade.php`, isi kode berikut:
-```
+```php
 @extends('layouts.master')
 
 @section('content')
@@ -66,13 +66,13 @@ Route::get('/admin', function() {
 ```
 7. Buka `routes/web.php`
 8. Cari kode
-```
+```php
 Route::get('/admin', function() {
     return view('layouts.master');
 });
 ```
 ganti menjadi:
-```
+```php
 Route::get('/admin', function() {
     return view('admin.dashboard');
 });
@@ -84,7 +84,7 @@ Route::get('/admin', function() {
 1. Buat folder `product` di dalam `/resources/views/`
 2. Buat file `index.blade.php` di dalam folder `product` tadi
 3. Buka file view `/product/index.blade.php` tadi, isi dengan kode:
-```
+```php
 @extends('layouts.master')
 
 @section('content')
@@ -93,9 +93,9 @@ Route::get('/admin', function() {
 ```
 4. Buka file `/routes/web.php`
 5. Isi kode baru berikut:
-```
+```php
 Route::get('/product', function() {
     return view('product.index');
 });
 ```
-6. Kembali ke browser, arahkan ke route `http://localhost:8000/product`.
+6. Kembali ke browser, arahkan ke route `http://localhost:8000/product`
