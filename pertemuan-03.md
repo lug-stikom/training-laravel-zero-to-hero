@@ -67,3 +67,10 @@ Tabel: __products__
 | stock          | integer            |
 | description    | text               |
 | timestamps     |                    |
+
+Tabel: __category_product__  
+
+| Columns        | Attributes         |
+| :------------- | :----------------- |
+| category_id    | unsigned           |
+| product_id     | unsigned           |
