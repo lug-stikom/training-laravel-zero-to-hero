@@ -34,3 +34,6 @@ Schema::create('employees', function (Blueprint $table) {
     $table->timestamps();
 });
 ```
+7. Kembali ke `terminal` / `cmd`, jalankan: `php artisan migrate:refresh`
+8. Buka PhpMyAdmin (atau MySQL client apapun)
+9. Seharusnya di sana terdapat tabel baru bernama `employees`
