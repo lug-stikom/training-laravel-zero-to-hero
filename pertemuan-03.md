@@ -82,3 +82,11 @@ Tabel: __statuses__
 | id             | increments                  |
 | name           | string, unique              |
 | timestamps     |                             |
+
+Tabel: __gateways__  
+
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| name           | string, unique              |
+| timestamps     |                             |
