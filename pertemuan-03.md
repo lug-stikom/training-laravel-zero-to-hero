@@ -90,3 +90,13 @@ Tabel: __gateways__
 | id             | increments                  |
 | name           | string, unique              |
 | timestamps     |                             |
+
+Tabel: __orders__  
+
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| order_no       | string, unique              |
+| grand_total    | double                      |
+| notes          | text                        |
+| timestamps     |                             |
