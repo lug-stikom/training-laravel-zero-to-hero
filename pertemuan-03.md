@@ -97,6 +97,7 @@ Tabel: __orders__
 | :------------- | :-------------------------- |
 | id             | increments                  |
 | order_no       | string, unique              |
+| gateway_id     | integer, unsigned           |
 | grand_total    | double                      |
 | notes          | text                        |
 | timestamps     |                             |
@@ -110,4 +111,13 @@ Tabel: __order_product__
 | product_id     | integer, unsigned           |
 | quantity       | integer                     |
 | subtotal       | integer                     |
+| timestamps     |                             |
+
+Tabel: __order_status__  
+
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| order_id       | integer, unsigned           |
+| status_id      | integer, unsigned           |
 | timestamps     |                             |
