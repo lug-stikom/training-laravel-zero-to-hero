@@ -6,7 +6,7 @@ Migration adalah cara Laravel untuk membuat semua orang (end-user maupun anggota
 
 Migration ditulis dalam bahasa PHP dengan menggunakan syntax/method dari Laravel.  
 
-### Contoh menulis migration
+### A.1 Contoh menulis migration
 
 Ambil contoh kita akan membuat tabel `employees`. Tabel ini akan berisi kolom-kolom sebagai berikut:  
 - `id` : primary key, auto-increment
