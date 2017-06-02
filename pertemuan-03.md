@@ -51,7 +51,7 @@ Tabel: __categories__
 | :------------- | :----------------- |
 | id             | increments         |
 | name           | string, unique     |
-| parent_id      | unsigned, nullable |
+| parent_id      | integer, unsigned, nullable |
 | timestamps     |                    |
 
 Tabel: __products__  
@@ -61,7 +61,7 @@ Tabel: __products__
 | id             | increments         |
 | sku            | string, unique     |
 | name           | string, unique     |
-| parent_id      | unsigned, nullable |
+| parent_id      | integer, unsigned, nullable |
 | unit_price     | double             |
 | sale_price     | double, default:0  |
 | stock          | integer            |
@@ -72,5 +72,5 @@ Tabel: __category_product__
 
 | Columns        | Attributes         |
 | :------------- | :----------------- |
-| category_id    | unsigned           |
-| product_id     | unsigned           |
+| category_id    | integer, unsigned           |
+| product_id     | integer, unsigned           |
