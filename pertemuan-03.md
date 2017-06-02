@@ -74,3 +74,11 @@ Tabel: __category_product__
 | :------------- | :-------------------------- |
 | category_id    | integer, unsigned           |
 | product_id     | integer, unsigned           |
+
+Tabel: __statuses__  
+
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| name           | string, unique              |
+| timestamps     |                             |
