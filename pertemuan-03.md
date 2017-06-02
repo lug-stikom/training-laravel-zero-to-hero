@@ -46,6 +46,9 @@ Berikut ini adalah daftar migration untuk urusan online store.
 
 Table: __categories__  
 
-| Column         | Attributes     |
-| :------------- | :------------- |
-| id             | increments     |
+| Columns        | Attributes         |
+| :------------- | :----------------- |
+| id             | increments         |
+| name           | string, unique     |
+| parent_id      | unsigned, nullable |
+| timestamps     |                    |
