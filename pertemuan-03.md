@@ -42,7 +42,8 @@ Demikianlah keterangan singkat dan contoh tentang migration.
 
 ## B. Kebutuhan Migration Untuk Online Store
 
-Berikut ini adalah daftar migration untuk urusan online store.
+Dengan cara yang sama seperti contoh di atas, buatlah tabel-tabel di bawah.  
+Berikut ini adalah daftar migration untuk urusan online store ini.
 
 Table: __categories__  
 
@@ -51,4 +52,17 @@ Table: __categories__
 | id             | increments         |
 | name           | string, unique     |
 | parent_id      | unsigned, nullable |
+| timestamps     |                    |
+
+Table: __products__  
+
+| Columns        | Attributes         |
+| :------------- | :----------------- |
+| id             | increments         |
+| sku            | string, unique     |
+| name           | string, unique     |
+| parent_id      | unsigned, nullable |
+| price          | double             |
+| stock          | integer            |
+| description    | text               |
 | timestamps     |                    |
