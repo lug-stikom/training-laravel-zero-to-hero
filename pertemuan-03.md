@@ -45,7 +45,7 @@ Demikianlah keterangan singkat dan contoh tentang migration.
 Dengan cara yang sama seperti contoh di atas, buatlah tabel-tabel di bawah.  
 Berikut ini adalah daftar migration untuk urusan online store ini.
 
-Table: __categories__  
+Tabel: __categories__  
 
 | Columns        | Attributes         |
 | :------------- | :----------------- |
@@ -54,7 +54,7 @@ Table: __categories__
 | parent_id      | unsigned, nullable |
 | timestamps     |                    |
 
-Table: __products__  
+Tabel: __products__  
 
 | Columns        | Attributes         |
 | :------------- | :----------------- |
@@ -62,7 +62,8 @@ Table: __products__
 | sku            | string, unique     |
 | name           | string, unique     |
 | parent_id      | unsigned, nullable |
-| price          | double             |
+| unit_price     | double             |
+| sale_price     | double, default:0  |
 | stock          | integer            |
 | description    | text               |
 | timestamps     |                    |
