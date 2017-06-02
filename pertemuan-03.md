@@ -42,8 +42,8 @@ Demikianlah keterangan singkat dan contoh tentang migration.
 
 ## B. Kebutuhan Migration Untuk Online Store
 
-Dengan cara yang sama seperti contoh di atas, buatlah tabel-tabel di bawah.  
-Berikut ini adalah daftar migration untuk urusan online store ini.
+Dengan cara yang sama seperti contoh di atas, buatlah tabel-tabel di bawah ini.  
+Berikut ini adalah daftar migration untuk urusan online store ini:
 
 Tabel: __categories__  
 
