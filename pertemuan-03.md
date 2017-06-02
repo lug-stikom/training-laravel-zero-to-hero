@@ -47,30 +47,30 @@ Berikut ini adalah daftar migration untuk urusan online store ini:
 
 Tabel: __categories__  
 
-| Columns        | Attributes         |
-| :------------- | :----------------- |
-| id             | increments         |
-| name           | string, unique     |
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| name           | string, unique              |
 | parent_id      | integer, unsigned, nullable |
-| timestamps     |                    |
+| timestamps     |                             |
 
 Tabel: __products__  
 
-| Columns        | Attributes         |
-| :------------- | :----------------- |
-| id             | increments         |
-| sku            | string, unique     |
-| name           | string, unique     |
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| sku            | string, unique              |
+| name           | string, unique              |
 | parent_id      | integer, unsigned, nullable |
-| unit_price     | double             |
-| sale_price     | double, default:0  |
-| stock          | integer            |
-| description    | text               |
-| timestamps     |                    |
+| unit_price     | double                      |
+| sale_price     | double, default:0           |
+| stock          | integer                     |
+| description    | text                        |
+| timestamps     |                             |
 
 Tabel: __category_product__  
 
-| Columns        | Attributes         |
-| :------------- | :----------------- |
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
 | category_id    | integer, unsigned           |
 | product_id     | integer, unsigned           |
