@@ -100,3 +100,14 @@ Tabel: __orders__
 | grand_total    | double                      |
 | notes          | text                        |
 | timestamps     |                             |
+
+Tabel: __order_product__  
+
+| Columns        | Attributes                  |
+| :------------- | :-------------------------- |
+| id             | increments                  |
+| order_id       | integer, unsigned           |
+| product_id     | integer, unsigned           |
+| quantity       | integer                     |
+| subtotal       | integer                     |
+| timestamps     |                             |
