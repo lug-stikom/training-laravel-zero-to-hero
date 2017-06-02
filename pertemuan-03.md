@@ -37,3 +37,15 @@ Schema::create('employees', function (Blueprint $table) {
 7. Kembali ke `terminal` / `cmd`, jalankan: `php artisan migrate:refresh`
 8. Buka PhpMyAdmin (atau MySQL client apapun)
 9. Seharusnya di sana terdapat tabel baru bernama `employees`
+
+Demikianlah keterangan singkat dan contoh tentang migration.
+
+## B. Kebutuhan Migration Untuk Online Store
+
+Berikut ini adalah daftar migration untuk urusan online store.
+
+Table: __categories__  
+
+| Column         | Attributes     |
+| :------------- | :------------- |
+| id             | increments     |
