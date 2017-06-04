@@ -83,4 +83,4 @@ Tabel __gateways__
 
 Tabel __categories__  
 
-⚠️ Isinya bebas. Tentukan sendiri kategori produk yang ingin Anda jual nanti ⚠️
+⚠️ Isinya bebas. Tentukan sendiri kategori produk yang ingin Anda jual nanti. Isi minimal 3 data. ⚠️
