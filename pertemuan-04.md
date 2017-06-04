@@ -64,3 +64,23 @@ DB::table('employees')->insert([
     ]
 ]);
 ```
+
+## B. Seeder Untuk Onlie Store
+
+Dengan menggunakan pengetahuan di atas, buatlah seeder untuk aplikasi online store ini dengan ketentuan sebagai berikut:
+
+Tabel __statuses__  
+
+| Kolom          | Value                       |
+| :------------- | :-------------------------- |
+| name           | `New`, `Paid`, `Canceled`   |
+
+Tabel __gateways__  
+
+| Kolom          | Value                                                         |
+| :------------- | :------------------------------------------------------------ |
+| name           | `Bank Transfer`, `Cash On Delivery`, `Credit Card`, `Paypal`  |
+
+Tabel __categories__  
+
+⚠️ Isinya bebas. Tentukan sendiri kategori produk yang ingin Anda jual nanti ⚠️
