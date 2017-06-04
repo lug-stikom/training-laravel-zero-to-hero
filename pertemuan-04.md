@@ -65,7 +65,7 @@ DB::table('employees')->insert([
 ]);
 ```
 
-## B. Seeder Untuk Onlie Store
+## B. Seeder Untuk Online Store
 
 Dengan menggunakan pengetahuan di atas, buatlah seeder untuk aplikasi online store ini dengan ketentuan sebagai berikut:
 
