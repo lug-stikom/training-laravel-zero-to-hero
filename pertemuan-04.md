@@ -37,3 +37,30 @@ DB::table('employees')->insert([
 2. Jalankan: `php artisan migrate:refresh --seed`
 3. Buka `PhpMyAdmin`, lalu buka database online store
 4. Lihat isi tabel `employees`, seharusnya terisi 1 data di sana
+
+## Tips
+
+Anda bisa membuat multi insert dengan cara seperti ini:
+
+```php
+DB::table('employees')->insert([
+    [
+        'nik' => 'N-0002',
+        'nama' => 'Naruto',
+        'email' => 'naruto@naruto.com',
+        'tanggal_lahir' => Carbon::now()->setDate(1990, 2, 20),
+        'gaji_pokok' => 5000000,
+        'created_at' => new DateTime(),
+        'updated_at' => new DateTime(),
+    ],
+    [
+        'nik' => 'N-0003',
+        'nama' => 'Goku',
+        'email' => 'goku@goku.com',
+        'tanggal_lahir' => Carbon::now()->setDate(1995, 3, 10),
+        'gaji_pokok' => 75000000,
+        'created_at' => new DateTime(),
+        'updated_at' => new DateTime(),
+    ]
+]);
+```
