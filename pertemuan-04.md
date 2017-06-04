@@ -88,3 +88,7 @@ Tabel __categories__
 Tabel __products__  
 
 ⚠️ Isinya bebas. Tentukan sendiri data produk yang ingin Anda jual nanti. Isi minimal 5 data. ⚠️
+
+Tabel __category_product__  
+
+⚠️ Tautkan data produk di atas, dengan kategorinya di sini ⚠️
