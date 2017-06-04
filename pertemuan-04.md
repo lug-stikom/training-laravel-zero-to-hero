@@ -30,3 +30,10 @@ DB::table('employees')->insert([
 ```
 4. Buka file `DatabaseSeeder.php`
 5. Di dalam fungsi `run()` tambahkan: `$this->call(EmployeesTableSeeder::class);`
+
+## A.3 Menjalankan Seeder
+
+1. Buka `terminal` / `cmd`
+2. Jalankan: `php artisan migrate:refresh --seed`
+3. Buka `PhpMyAdmin`, lalu buka database online store
+4. Lihat isi tabel `employees`, seharusnya terisi 1 data di sana
