@@ -71,15 +71,17 @@ Dengan menggunakan pengetahuan di atas, buatlah seeder untuk aplikasi online sto
 
 Tabel __statuses__  
 
-| Kolom          | Value                       |
-| :------------- | :-------------------------- |
-| name           | `New`, `Paid`, `Canceled`   |
+| Kolom                         | Value                       |
+| :---------------------------- | :-------------------------- |
+| `name`                        | `New`, `Paid`, `Canceled`   |
+| `created_at` dan `updated_at` | `new DateTime()`            |
 
 Tabel __gateways__  
 
-| Kolom          | Value                                                         |
-| :------------- | :------------------------------------------------------------ |
-| name           | `Bank Transfer`, `Cash On Delivery`, `Credit Card`, `Paypal`  |
+| Kolom                         | Value                                              |
+| :---------------------------- | :------------------------------------------------- |
+| `name`                        | `Bank Transfer`, `Cash On Delivery`, `Credit Card` |
+| `created_at` dan `updated_at` | `new DateTime()`                                   |
 
 Tabel __categories__  
 
