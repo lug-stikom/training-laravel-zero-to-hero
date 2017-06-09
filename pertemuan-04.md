@@ -78,10 +78,10 @@ Tabel __statuses__
 
 Tabel __gateways__  
 
-| Kolom                         | Value                                              |
-| :---------------------------- | :------------------------------------------------- |
-| `name`                        | `Bank Transfer`, `Cash On Delivery`, `Credit Card` |
-| `created_at` dan `updated_at` | `new DateTime()`                                   |
+| Kolom                         | Value                                 |
+| :---------------------------- | :------------------------------------ |
+| `name`                        | `Bank Transfer`, `COD`, `Credit Card` |
+| `created_at` dan `updated_at` | `new DateTime()`                      |
 
 Tabel __categories__  
 
@@ -93,4 +93,4 @@ Tabel __products__
 
 Tabel __category_product__  
 
-*Tautkan data produk di atas, dengan kategorinya di sini*
+*Tautkan `id` data produk di atas, dengan `id` kategorinya di sini*
