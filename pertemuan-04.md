@@ -69,28 +69,28 @@ DB::table('employees')->insert([
 
 Dengan menggunakan pengetahuan di atas, buatlah seeder untuk aplikasi online store ini dengan ketentuan sebagai berikut:
 
-Tabel __statuses__  
+1) Tabel __statuses__  
 
 | Kolom                         | Value                       |
 | :---------------------------- | :-------------------------- |
 | `name`                        | `New`, `Paid`, `Canceled`   |
 | `created_at` dan `updated_at` | `new DateTime()`            |
 
-Tabel __gateways__  
+2) Tabel __gateways__  
 
 | Kolom                         | Value                                 |
 | :---------------------------- | :------------------------------------ |
 | `name`                        | `Bank Transfer`, `COD`, `Credit Card` |
 | `created_at` dan `updated_at` | `new DateTime()`                      |
 
-Tabel __categories__  
+3) Tabel __categories__  
 
 *Isinya bebas. Tentukan sendiri kategori dari produk yang ingin Anda jual nanti. Isi minimal 5 data.*
 
-Tabel __products__  
+4) Tabel __products__  
 
 *Isinya bebas. Tentukan sendiri data produk yang ingin Anda jual nanti. Isi minimal 10 data.*
 
-Tabel __category_product__  
+5) Tabel __category_product__  
 
 *Tautkan `id` data produk di atas, dengan `id` kategorinya di sini*
