@@ -97,9 +97,10 @@ Tabel: __orders__
 | :------------- | :-------------------------- |
 | id             | increments                  |
 | order_no       | string, unique              |
+| user_id        | integer, unsigned           |
 | gateway_id     | integer, unsigned           |
 | grand_total    | double                      |
-| notes          | text                        |
+| notes          | text, nullable              |
 | timestamps     |                             |
 
 Tabel: __order_product__  
