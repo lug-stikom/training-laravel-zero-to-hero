@@ -111,7 +111,7 @@ Tabel: __order_product__
 | order_id       | integer, unsigned           |
 | product_id     | integer, unsigned           |
 | quantity       | integer                     |
-| subtotal       | integer                     |
+| subtotal       | double                      |
 | timestamps     |                             |
 
 Tabel: __order_status__  
