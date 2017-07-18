@@ -32,7 +32,7 @@ Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) j
 4. Paste ke dalam folder `online-store/public`  
     Akan ada folder `/public/bootstrap`
 5. Buat file `master.blade.php` di dalam folder `/resources/views/layouts`
-6. Buka `https://pastebin.com/kuiPYUgZ`
+6. Buka `https://pastebin.com/YMzTdRhJ`
 7. Copas ke dalam file `master.blade.php` tadi
 
 ## D. Memanggil View Melalui Route
