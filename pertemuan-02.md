@@ -52,8 +52,8 @@ Route::get('/admin', function() {
 ## E. Membuat @section Dalam Master Layout
 
 1. Buka file `resources/views/layouts/master.blade.php`
-2. Cari kode `<!-- Your Page Content Here -->`
-3. Ganti menjadi `@yield('content')`
+2. Cari kalimat `Your Page Content Here`
+3. Dibawahnya isi dengan kode `@yield('content')`
 4. Buat folder `admin` dalam `/resources/views/`
 5. Didalamnya buat file `dashboard.blade.php`
 6. Didalam file `dashboard.blade.php`, isi kode berikut:
