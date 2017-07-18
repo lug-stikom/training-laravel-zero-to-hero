@@ -38,7 +38,7 @@ Komponen web yang dibuat dari javascript frameworks (Vue, Angular, atau React) j
 ## D. Memanggil View Melalui Route
 
 1. Buka `file /routes/web.php`
-2. Isi dengan kode
+2. Tambahkan dengan kode ini dibagian paling bawah
 ```php
 Route::get('/admin', function() {
     return view('layouts.master');
