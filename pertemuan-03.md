@@ -22,7 +22,7 @@ Maka pembuatan migration-nya adalah sebagai berikut:
 3. Jalankan: `php artisan make:migration create_employees_table --create=employees`
 4. Akan muncul file baru dengan nama sama seperti di atas dalam `/database/migrations`
 5. Buka file baru tersebut (`yyyy_mm_dd_hhiiss_create_employees_table.php`)
-6. Di dalam method `up()`, isikan kode berikut:
+6. Cari fungsi `up()`, ganti kodenya dengan kode dibawah ini:
 ```php
 Schema::create('employees', function (Blueprint $table) {
     $table->increments('id');
